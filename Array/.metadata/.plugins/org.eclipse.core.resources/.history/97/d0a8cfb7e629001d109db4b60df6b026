@@ -1,0 +1,39 @@
+package Array;
+import java.util.Scanner;
+public class MethodToCreateArraysize {
+
+	public static void main(String[] args)
+	{
+		
+		
+	
+		int[]a=arrayOfSize(10);
+		
+		for(int i:a) {
+			
+			 
+			System.out.print(i+" ");
+		}
+		
+		
+
+	}
+	public static int[] arrayOfSize(int size) {
+		int[]arr=new int[size];
+		return arr;
+		
+		
+		
+	}
+	
+		
+			
+		
+			
+		
+	}
+	
+	
+	
+
+}

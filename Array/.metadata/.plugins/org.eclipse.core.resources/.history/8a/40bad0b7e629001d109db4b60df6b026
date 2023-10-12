@@ -1,0 +1,11 @@
+package Array;
+
+public class CreateArrayWithUserInput {
+	public static void main(String[] args) {
+		int[]a=arrayOfSize(10);
+		for(int i:a) {
+			System.out.print(i+" ");
+		}
+		
+
+}

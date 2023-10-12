@@ -1,0 +1,36 @@
+package string;
+
+import java.util.Scanner;
+
+public class MethodtoFind1stAndLastelement {
+
+	public static void main(String[] args) {
+		methodTofindElements();
+		
+
+	}
+	public static void methodTofindElements() {
+		char last=' ';
+		char first=' ';
+		char j=' ';
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the string");
+		String s1=sc.nextLine();
+		for(int i=0;i<s1.length();i++) {
+			
+			if(i==0) {
+			first=s1.charAt(i);}
+			else if (i==s1.length()-1) {
+				last=s1.charAt(i);
+			}
+			else {
+				 j=s1.charAt(i);
+			}
+		}
+		System.out.println(last);
+		System.out.println(first);
+		System.out.println(j);
+		
+	}
+
+}
